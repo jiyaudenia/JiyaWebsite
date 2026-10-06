@@ -5,6 +5,7 @@ import html
 import json
 import re
 import shutil
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,6 +16,7 @@ base = '/' + args.base_path.strip('/') if args.base_path.strip('/') else ''
 if base and not re.fullmatch(r'/[A-Za-z0-9_./-]+', base):
     raise SystemExit('Invalid Pages base path')
 public, output = ROOT / 'public', ROOT / '_site'
+revision = subprocess.check_output(['git','rev-parse','--short','HEAD'], cwd=ROOT, text=True).strip()
 if output.exists():
     shutil.rmtree(output)
 shutil.copytree(public, output)
@@ -35,6 +37,8 @@ for file in output.rglob('*'):
     text = file.read_text()
     if base:
         text = pattern.sub(lambda m: m[1] + base + '/' + m[2], text)
+    # Version module URLs so browsers receive updates immediately after deployment.
+    text=re.sub(r'([\"\'(])('+re.escape(base)+r'/vendor/[^\"\'<>\s)]+\.js)(?=[\"\')])', lambda m:m[1]+m[2]+'?v='+revision, text)
     for old,new in renamed_styles.items():
         text=text.replace(old,new)
     if file.suffix == '.html':
