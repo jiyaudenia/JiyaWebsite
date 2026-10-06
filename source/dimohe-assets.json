@@ -1,0 +1,21 @@
+{
+  "official_website": "https://www.dimohe.com/",
+  "assets": [
+    {
+      "file": "/media/dimohe/brand.jpg",
+      "source": "https://dimohe.com/cdn/shop/files/PJCCCQSD4_1_1.jpg?width=1500"
+    },
+    {
+      "file": "/media/dimohe/collection.jpg",
+      "source": "https://dimohe.com/cdn/shop/files/PJFTCWSD3_1_1.jpg?width=1100"
+    },
+    {
+      "file": "/media/dimohe/hair-oil.jpg",
+      "source": "https://dimohe.com/cdn/shop/files/Hair-Oil.jpg?width=1100"
+    },
+    {
+      "file": "/media/dimohe/clutch.png",
+      "source": "https://dimohe.com/cdn/shop/files/clutch-contain-img.png?width=1500"
+    }
+  ]
+}

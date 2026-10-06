@@ -1,0 +1,1 @@
+import{c as s,d as l}from"/vendor/st-p.rmcdn1.net/e99f4fe4/dist/c/c-L7D2X6HB.js";l();var a=()=>{let t=[s.isDesktop()?"isdesktop":"no-isdesktop"],o=s.isTablet()?["istablet","touch"]:["no-istablet","no-touch"],e=[s.isMobile()?"isphone":"no-isphone"],i=[...t,...o,...e];document.querySelector("html").classList.add(...i)};export{a};

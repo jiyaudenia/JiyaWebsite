@@ -1,0 +1,1317 @@
+[
+  {
+    "_id": "68c75ee548483e2c32dc3962",
+    "wid": "68c75ee548483e2c32dc3962",
+    "mag_num_id": 5795839,
+    "type": "background",
+    "color": "ffffff",
+    "opacity": 1,
+    "originId": "68bcab9c12236bffc7dc7e96",
+    "__v": 0
+  },
+  {
+    "_id": "68cc754fd8ddc3082c2fd1e4",
+    "wid": "68cc754fd8ddc3082c2fd1e4",
+    "mag_num_id": 5795839,
+    "type": "form",
+    "x": 347.19,
+    "y": 117.25,
+    "w": 329.62,
+    "h": 258.96,
+    "layout": "vertical",
+    "style": "underlined",
+    "button-caption": "Connect",
+    "button_caption_after_submit": "Connected!",
+    "submit_mode": "textAfterSubmit",
+    "link_after_submit": null,
+    "fields": [
+      {
+        "tp": "name",
+        "caption": "Name",
+        "optional": false,
+        "sort": 0
+      },
+      {
+        "tp": "email",
+        "caption": "Email",
+        "optional": false,
+        "sort": 1
+      },
+      {
+        "tp": "text",
+        "caption": "Message",
+        "optional": false,
+        "sort": 2,
+        "rows": 3
+      }
+    ],
+    "style-colored-fields": {
+      "gutter": 20,
+      "color": "f7f7f7",
+      "opacity": 100,
+      "border-radius": 0,
+      "border-width": 0,
+      "border-color": "000000",
+      "border-opacity": 100,
+      "font-family": "Roboto",
+      "font-style": "normal",
+      "font-weight": 400,
+      "text-color": "000000",
+      "text-opacity": 100,
+      "font-size": 18,
+      "letter-spacing": 0,
+      "text-align": "left",
+      "direction": "ltr"
+    },
+    "style-colored-button-default": {
+      "gutter": 0,
+      "color": "4c4c4c",
+      "opacity": 100,
+      "border-radius": "inherit",
+      "border-width": 0,
+      "border-color": "000000",
+      "border-opacity": 100,
+      "font-family": "inherit",
+      "font-style": "inherit",
+      "font-weight": "inherit",
+      "text-color": "ffffff",
+      "text-opacity": 100,
+      "font-size": "inherit",
+      "letter-spacing": "inherit",
+      "text-align": "center"
+    },
+    "style-colored-button-hover": {
+      "color": "inherit",
+      "opacity": 90,
+      "border-width": "inherit",
+      "border-color": "inherit",
+      "border-opacity": "inherit",
+      "text-color": "inherit",
+      "text-opacity": "inherit",
+      "text-align": "center",
+      "transition": false
+    },
+    "style-outlined-fields": {
+      "gutter": 20,
+      "color": "ffffff",
+      "opacity": 0,
+      "border-radius": 0,
+      "border-width": 1,
+      "border-color": "e5e5e5",
+      "border-opacity": 100,
+      "font-family": "Roboto",
+      "font-style": "normal",
+      "font-weight": 400,
+      "text-color": "000000",
+      "text-opacity": 100,
+      "font-size": 18,
+      "letter-spacing": 0,
+      "text-align": "left",
+      "direction": "ltr"
+    },
+    "style-outlined-button-default": {
+      "gutter": 0,
+      "color": "e8e8e8",
+      "opacity": 60,
+      "border-radius": "inherit",
+      "border-width": 0,
+      "border-color": "000000",
+      "border-opacity": 100,
+      "font-family": "inherit",
+      "font-style": "inherit",
+      "font-weight": "inherit",
+      "text-color": "000000",
+      "text-opacity": 60,
+      "font-size": "inherit",
+      "letter-spacing": "inherit",
+      "text-align": "center"
+    },
+    "style-outlined-button-hover": {
+      "color": "inherit",
+      "opacity": 90,
+      "border-width": "inherit",
+      "border-color": "inherit",
+      "border-opacity": "inherit",
+      "text-color": "inherit",
+      "text-opacity": 80,
+      "text-align": "center",
+      "transition": false
+    },
+    "style-underlined-fields": {
+      "gutter": 18,
+      "underline-width": 1,
+      "underline-color": "FFD7EB",
+      "underline-opacity": 100,
+      "font-family": "custom_159136",
+      "font-style": "normal",
+      "font-weight": 400,
+      "text-color": "000000",
+      "text-opacity": 100,
+      "font-size": 14,
+      "letter-spacing": 0,
+      "text-align": "left",
+      "direction": "ltr"
+    },
+    "style-underlined-button-default": {
+      "gutter": 0,
+      "color": "000000",
+      "opacity": 100,
+      "border-radius": 0,
+      "border-width": 0,
+      "border-color": "FF0080",
+      "border-opacity": 100,
+      "font-family": "inherit",
+      "font-style": "inherit",
+      "font-weight": "inherit",
+      "text-color": "ffffff",
+      "text-opacity": 100,
+      "font-size": "inherit",
+      "letter-spacing": "inherit",
+      "text-align": "center"
+    },
+    "style-underlined-button-hover": {
+      "color": "inherit",
+      "opacity": 80,
+      "border-width": 1,
+      "border-color": "inherit",
+      "border-opacity": "inherit",
+      "text-color": "inherit",
+      "text-opacity": "inherit",
+      "text-align": "center",
+      "transition": false
+    },
+    "z": 301,
+    "endpoint_email": {
+      "enabled": true
+    },
+    "endpoint_email-storage": {
+      "enabled": true
+    },
+    "endpoint_google": {
+      "enabled": false
+    },
+    "endpoint_mailchimp": {
+      "enabled": false
+    },
+    "endpoint_url": {
+      "enabled": false
+    },
+    "__v": 0
+  },
+  {
+    "_id": "68d04f130a243d71e54d7f40",
+    "wid": "68d04f130a243d71e54d7f40",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 401.61,
+    "y": 24.41,
+    "w": 220.79,
+    "h": 49,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "3tm2m",
+        "text": "Jiya Udenia",
+        "entityRanges": [
+          {
+            "offset": 0,
+            "length": 11,
+            "key": 0
+          }
+        ],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "3tm2m",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 11,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5",
+                "6;6",
+                "7;7"
+              ]
+            }
+          ],
+          "keys": [
+            "FONT_WEIGHT",
+            "FONT_STYLE",
+            "FONT_FAMILY",
+            "TRANSFORM",
+            "FONT_VARIABLE",
+            "DECORATION",
+            "COLOR",
+            "FONT_SIZE"
+          ],
+          "values": [
+            "400",
+            "normal",
+            "Bodoni Moda",
+            "uppercase",
+            "wght|572",
+            "none",
+            "FFD7EB64",
+            "32"
+          ]
+        }
+      }
+    ],
+    "entityMap": {
+      "0": {
+        "type": "LINK",
+        "mutability": "MUTABLE",
+        "data": {
+          "url": "1",
+          "anchorPosition": 0,
+          "pageNum": 1,
+          "type": "Page",
+          "target": "_self",
+          "pageId": "68bc7c6775379e63f3dfc263",
+          "linkStyle": "link-style-453d6dea-1105-4792-810f-db543d7ede6f",
+          "id": "e1ckb"
+        }
+      }
+    },
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 302,
+    "blocksMeta": [
+      {
+        "key": "3tm2m",
+        "data": {
+          "lineHeight": 49,
+          "align": "align-center",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "name": "",
+    "text": "",
+    "bgColor": "FFD7EB00",
+    "originId": "68bcabb1896b0acc32d010b3",
+    "__v": 0
+  },
+  {
+    "_id": "68d04f13ae0efd0b5adf9f75",
+    "wid": "68d04f13ae0efd0b5adf9f75",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 311,
+    "y": 41.41,
+    "w": 52.81,
+    "h": 15,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "3tm2m",
+        "text": "About Me ",
+        "entityRanges": [
+          {
+            "offset": 0,
+            "length": 9,
+            "key": 0
+          }
+        ],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "3tm2m",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 9,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5",
+                "6;6"
+              ]
+            }
+          ],
+          "keys": [
+            "BOLD",
+            "FONT_FAMILY",
+            "FONT_SIZE",
+            "TRANSFORM",
+            "COLOR",
+            "FONT_STYLE",
+            "FONT_WEIGHT"
+          ],
+          "values": [
+            "",
+            "custom_159136",
+            "11",
+            "uppercase",
+            "FFFFFF64",
+            "normal",
+            "400"
+          ]
+        }
+      }
+    ],
+    "entityMap": {
+      "0": {
+        "type": "LINK",
+        "mutability": "MUTABLE",
+        "data": {
+          "url": "3",
+          "anchorPosition": 0,
+          "pageNum": 3,
+          "type": "Page",
+          "target": "_self",
+          "linkStyle": "link-1",
+          "pageId": "68bcab9c12236bffc7dc7e93",
+          "id": "4i2s8"
+        }
+      }
+    },
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 303,
+    "blocksMeta": [
+      {
+        "key": "3tm2m",
+        "data": {
+          "paddings": {},
+          "lineHeight": 15,
+          "align": "align-center",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "name": "",
+    "text": "",
+    "originId": "68bcabb2d66722e75715f5d8",
+    "__v": 0
+  },
+  {
+    "_id": "68d04f141f7248eef2a4aa09",
+    "wid": "68d04f141f7248eef2a4aa09",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 212,
+    "y": 41.41,
+    "w": 55.03,
+    "h": 15,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "3tm2m",
+        "text": "Projects",
+        "entityRanges": [
+          {
+            "offset": 0,
+            "length": 8,
+            "key": 0
+          }
+        ],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "3tm2m",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 8,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5",
+                "6;6"
+              ]
+            }
+          ],
+          "keys": [
+            "BOLD",
+            "FONT_FAMILY",
+            "FONT_SIZE",
+            "TRANSFORM",
+            "COLOR",
+            "FONT_STYLE",
+            "FONT_WEIGHT"
+          ],
+          "values": [
+            "",
+            "custom_159136",
+            "11",
+            "uppercase",
+            "FFFFFF64",
+            "normal",
+            "400"
+          ]
+        }
+      }
+    ],
+    "entityMap": {
+      "0": {
+        "type": "LINK",
+        "mutability": "MUTABLE",
+        "data": {
+          "url": "2",
+          "anchorPosition": 0,
+          "pageNum": 2,
+          "type": "Page",
+          "target": "_self",
+          "linkStyle": "link-1",
+          "pageId": "68c75ec40a7f8256bc120160",
+          "id": "cp6o9"
+        }
+      }
+    },
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 304,
+    "blocksMeta": [
+      {
+        "key": "3tm2m",
+        "data": {
+          "paddings": {},
+          "lineHeight": 15,
+          "align": "align-center",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "name": "",
+    "text": "",
+    "originId": "68bcabb2a36b428b0507db7a",
+    "__v": 0
+  },
+  {
+    "_id": "68d04f14ae0efd0b5adf9f78",
+    "wid": "68d04f14ae0efd0b5adf9f78",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 655,
+    "y": 41.41,
+    "w": 66.12,
+    "h": 15,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "3tm2m",
+        "text": "Experience",
+        "entityRanges": [
+          {
+            "offset": 0,
+            "length": 10,
+            "key": 0
+          }
+        ],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "3tm2m",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 10,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5",
+                "6;6"
+              ]
+            }
+          ],
+          "keys": [
+            "BOLD",
+            "FONT_FAMILY",
+            "FONT_SIZE",
+            "TRANSFORM",
+            "COLOR",
+            "FONT_STYLE",
+            "FONT_WEIGHT"
+          ],
+          "values": [
+            "",
+            "custom_159136",
+            "11",
+            "uppercase",
+            "FFFFFF64",
+            "normal",
+            "400"
+          ]
+        }
+      }
+    ],
+    "entityMap": {
+      "0": {
+        "type": "LINK",
+        "mutability": "MUTABLE",
+        "data": {
+          "url": "4",
+          "anchorPosition": 0,
+          "pageNum": 4,
+          "type": "Page",
+          "target": "_self",
+          "linkStyle": "link-1",
+          "pageId": "68bca0cd54434bf0d4127e29",
+          "id": "4l2pl"
+        }
+      }
+    },
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 305,
+    "blocksMeta": [
+      {
+        "key": "3tm2m",
+        "data": {
+          "paddings": {},
+          "lineHeight": 15,
+          "align": "align-center",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "name": "",
+    "text": "",
+    "originId": "68bcabb2398bf6d835a0bcd4",
+    "__v": 0
+  },
+  {
+    "_id": "68d04f14dd9dcc9542e9138f",
+    "wid": "68d04f14dd9dcc9542e9138f",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 755,
+    "y": 41.41,
+    "w": 51.33,
+    "h": 15,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "3tm2m",
+        "text": "Contact",
+        "entityRanges": [
+          {
+            "offset": 0,
+            "length": 7,
+            "key": 0
+          }
+        ],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "3tm2m",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 7,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5",
+                "6;6"
+              ]
+            }
+          ],
+          "keys": [
+            "BOLD",
+            "FONT_FAMILY",
+            "FONT_SIZE",
+            "TRANSFORM",
+            "COLOR",
+            "FONT_STYLE",
+            "FONT_WEIGHT"
+          ],
+          "values": [
+            "",
+            "custom_159136",
+            "11",
+            "uppercase",
+            "FFFFFF64",
+            "normal",
+            "400"
+          ]
+        }
+      }
+    ],
+    "entityMap": {
+      "0": {
+        "type": "LINK",
+        "mutability": "MUTABLE",
+        "data": {
+          "url": "contact",
+          "anchorPosition": 0,
+          "pageNum": 7,
+          "type": "Page",
+          "target": "_self",
+          "pageId": "68c75ee548483e2c32dc395f",
+          "linkStyle": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219",
+          "id": "9rptq"
+        }
+      }
+    },
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 306,
+    "blocksMeta": [
+      {
+        "key": "3tm2m",
+        "data": {
+          "paddings": {},
+          "lineHeight": 15,
+          "align": "align-center",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "name": "",
+    "text": "",
+    "originId": "68bcabb2b00912035bf48a53",
+    "__v": 0
+  },
+  {
+    "_id": "68d053aedd9dcc9542e9caf2",
+    "wid": "68d053aedd9dcc9542e9caf2",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 69,
+    "y": 494.69,
+    "w": 93,
+    "h": 23,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "3tm2m",
+        "text": "Jiya Udenia",
+        "entityRanges": [],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "3tm2m",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 11,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5",
+                "6;6",
+                "7;7"
+              ]
+            }
+          ],
+          "keys": [
+            "FONT_WEIGHT",
+            "FONT_STYLE",
+            "FONT_FAMILY",
+            "TRANSFORM",
+            "FONT_VARIABLE",
+            "DECORATION",
+            "COLOR",
+            "FONT_SIZE"
+          ],
+          "values": [
+            "400",
+            "normal",
+            "Bodoni Moda",
+            "uppercase",
+            "wght|572",
+            "none",
+            "2C1A0064",
+            "12"
+          ]
+        }
+      }
+    ],
+    "entityMap": {},
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 307,
+    "blocksMeta": [
+      {
+        "key": "3tm2m",
+        "data": {
+          "lineHeight": 23,
+          "align": "align-left",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "name": "",
+    "text": "",
+    "bgColor": "FFD7EB00",
+    "__v": 0
+  },
+  {
+    "_id": "68d053aef7e7f8c186adc6bd",
+    "wid": "68d053aef7e7f8c186adc6bd",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 158,
+    "y": 498.69,
+    "w": 444,
+    "h": 13,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "3tm2m",
+        "text": "Copyright \u00a9 2025 All rights Reserved. Jiya Udenia",
+        "entityRanges": [],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "3tm2m",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 49,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5"
+              ]
+            }
+          ],
+          "keys": [
+            "BOLD",
+            "FONT_FAMILY",
+            "FONT_STYLE",
+            "FONT_WEIGHT",
+            "COLOR",
+            "FONT_SIZE"
+          ],
+          "values": [
+            "",
+            "custom_159136",
+            "normal",
+            "400",
+            "2C1A0064",
+            "10"
+          ]
+        }
+      }
+    ],
+    "entityMap": {},
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 308,
+    "blocksMeta": [
+      {
+        "key": "3tm2m",
+        "data": {
+          "paddings": {},
+          "lineHeight": 13,
+          "align": "align-left",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "name": "",
+    "text": "",
+    "__v": 0
+  },
+  {
+    "_id": "68d053aec398548dd1488652",
+    "wid": "68d053aec398548dd1488652",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 815,
+    "y": 498.69,
+    "w": 51.33,
+    "h": 15,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "3tm2m",
+        "text": "Home",
+        "entityRanges": [
+          {
+            "offset": 0,
+            "length": 4,
+            "key": 0
+          }
+        ],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "3tm2m",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 4,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5",
+                "6;6"
+              ]
+            }
+          ],
+          "keys": [
+            "BOLD",
+            "FONT_FAMILY",
+            "FONT_SIZE",
+            "TRANSFORM",
+            "COLOR",
+            "FONT_STYLE",
+            "FONT_WEIGHT"
+          ],
+          "values": [
+            "",
+            "custom_159136",
+            "11",
+            "uppercase",
+            "FFFFFF64",
+            "normal",
+            "400"
+          ]
+        }
+      }
+    ],
+    "entityMap": {
+      "0": {
+        "type": "LINK",
+        "mutability": "MUTABLE",
+        "data": {
+          "url": "1",
+          "anchorPosition": 0,
+          "pageNum": 1,
+          "type": "Page",
+          "target": "_self",
+          "linkStyle": "link-style-453d6dea-1105-4792-810f-db543d7ede6f",
+          "pageId": "68bc7c6775379e63f3dfc263",
+          "id": "1qc0j"
+        }
+      }
+    },
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 309,
+    "blocksMeta": [
+      {
+        "key": "3tm2m",
+        "data": {
+          "paddings": {},
+          "lineHeight": 15,
+          "align": "align-center",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "name": "",
+    "text": "",
+    "originId": "68bcabb2b00912035bf48a53",
+    "__v": 0
+  },
+  {
+    "_id": "68d053aedd9dcc9542e9caf9",
+    "wid": "68d053aedd9dcc9542e9caf9",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 889,
+    "y": 498.69,
+    "w": 64.92,
+    "h": 15,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "3tm2m",
+        "text": "bACK TO TOP",
+        "entityRanges": [
+          {
+            "offset": 0,
+            "length": 11,
+            "key": 0
+          }
+        ],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "3tm2m",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 11,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5",
+                "6;6"
+              ]
+            }
+          ],
+          "keys": [
+            "BOLD",
+            "FONT_FAMILY",
+            "FONT_SIZE",
+            "TRANSFORM",
+            "COLOR",
+            "FONT_STYLE",
+            "FONT_WEIGHT"
+          ],
+          "values": [
+            "",
+            "custom_159136",
+            "11",
+            "uppercase",
+            "FFFFFF64",
+            "normal",
+            "400"
+          ]
+        }
+      }
+    ],
+    "entityMap": {
+      "0": {
+        "type": "LINK",
+        "mutability": "MUTABLE",
+        "data": {
+          "url": "",
+          "anchorPosition": 0,
+          "type": "ScrollToTop",
+          "target": "_self",
+          "linkStyle": "link-1",
+          "id": "apt1"
+        }
+      }
+    },
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 310,
+    "blocksMeta": [
+      {
+        "key": "3tm2m",
+        "data": {
+          "paddings": {},
+          "lineHeight": 15,
+          "align": "align-center",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "name": "",
+    "text": "",
+    "originId": "68bcabb2b00912035bf48a53",
+    "__v": 0
+  },
+  {
+    "_id": "68d9c20a3ce6864efab9d9d7",
+    "wid": "68d9c20a3ce6864efab9d9d7",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 438,
+    "y": 413.63,
+    "w": 73.83,
+    "h": 20,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "6rmqe",
+        "text": "Resume",
+        "entityRanges": [
+          {
+            "offset": 0,
+            "length": 6,
+            "key": 0
+          }
+        ],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "6rmqe",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 6,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5"
+              ]
+            }
+          ],
+          "keys": [
+            "FONT_FAMILY",
+            "FONT_WEIGHT",
+            "FONT_STYLE",
+            "LETTER_SPACING",
+            "COLOR",
+            "FONT_SIZE"
+          ],
+          "values": [
+            "Bodoni Moda",
+            "400",
+            "normal",
+            "0.5",
+            "00000064",
+            "10"
+          ]
+        }
+      }
+    ],
+    "entityMap": {
+      "0": {
+        "type": "LINK",
+        "mutability": "MUTABLE",
+        "data": {
+          "url": "/media/Udenia_Jiya_Resume.pdf",
+          "anchorPosition": 0,
+          "type": "URL",
+          "target": "_blank",
+          "linkStyle": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219",
+          "id": "65g04"
+        }
+      }
+    },
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 311,
+    "blocksMeta": [
+      {
+        "key": "6rmqe",
+        "data": {
+          "lineHeight": 20,
+          "align": "align-center",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "68d9c3f6d44abbaca152e3b0",
+    "wid": "68d9c3f6d44abbaca152e3b0",
+    "mag_num_id": 5795839,
+    "type": "text",
+    "x": 512,
+    "y": 413.63,
+    "w": 73.83,
+    "h": 20,
+    "version": 3,
+    "verticalAlign": "top",
+    "textDirection": "LTR",
+    "autosize": true,
+    "blocks": [
+      {
+        "key": "6rmqe",
+        "text": "LinkedIn",
+        "entityRanges": [
+          {
+            "offset": 0,
+            "length": 8,
+            "key": 0
+          }
+        ],
+        "depth": 0
+      }
+    ],
+    "styles": [
+      {
+        "key": "6rmqe",
+        "type": "unstyled",
+        "inlineStyles": {
+          "styles": [
+            {
+              "offset": 0,
+              "length": 8,
+              "styles": [
+                "0;0",
+                "1;1",
+                "2;2",
+                "3;3",
+                "4;4",
+                "5;5"
+              ]
+            }
+          ],
+          "keys": [
+            "FONT_FAMILY",
+            "FONT_WEIGHT",
+            "FONT_STYLE",
+            "LETTER_SPACING",
+            "COLOR",
+            "FONT_SIZE"
+          ],
+          "values": [
+            "Bodoni Moda",
+            "400",
+            "normal",
+            "0.5",
+            "00000064",
+            "10"
+          ]
+        }
+      }
+    ],
+    "entityMap": {
+      "0": {
+        "type": "LINK",
+        "mutability": "MUTABLE",
+        "data": {
+          "url": "https://www.linkedin.com/in/jiya-udenia",
+          "anchorPosition": 0,
+          "type": "URL",
+          "target": "_self",
+          "linkStyle": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219",
+          "id": "f3fhb"
+        }
+      }
+    },
+    "flags": {
+      "baseline": true,
+      "calculatedLineHeight": true,
+      "updatedLinks": true,
+      "newListPosition": true
+    },
+    "z": 312,
+    "blocksMeta": [
+      {
+        "key": "6rmqe",
+        "data": {
+          "lineHeight": 20,
+          "align": "align-center",
+          "sizesLinkedStatus": true
+        }
+      }
+    ],
+    "__v": 0
+  }
+]

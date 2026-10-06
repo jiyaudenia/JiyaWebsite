@@ -1,0 +1,1 @@
+import{a as r}from"/vendor/st-p.rmcdn1.net/e99f4fe4/dist/c/c-J44RLTAY.js";function n(t,i){if(t==null)return{};var o={};for(var e in t)if({}.hasOwnProperty.call(t,e)){if(i.indexOf(e)>=0)continue;o[e]=t[e]}return o}var f=r(()=>{"use strict"});export{n as a,f as b};

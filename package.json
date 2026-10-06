@@ -1,0 +1,12 @@
+{
+  "name": "jiya-udenia-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Faithful local replica of jiyaudenia.com",
+  "scripts": {
+    "dev": "python3 scripts/serve.py",
+    "start": "python3 scripts/serve.py",
+    "build": "python3 scripts/build.py",
+    "check": "python3 scripts/check.py"
+  }
+}

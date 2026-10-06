@@ -1,0 +1,49 @@
+
+@font-face {
+  font-weight: 900;
+  font-family: 'custom_159136';
+  font-style: normal;
+  src: url("/vendor/c-p.rmcdn.net/custom-fonts/font-8a40b2bd-b981-4e15-a7d4-f43b289356e6.ttf") format('truetype');
+}
+@font-face {
+  font-weight: 600;
+  font-family: 'custom_159136';
+  font-style: normal;
+  src: url("/vendor/c-p.rmcdn.net/custom-fonts/font-33a952a7-d070-4598-b743-cf24ee27e0d6.ttf") format('truetype');
+}
+@font-face {
+  font-weight: 100;
+  font-family: 'custom_159136';
+  font-style: normal;
+  src: url("/vendor/c-p.rmcdn.net/custom-fonts/font-43826b9b-dfe8-4db2-8792-fb929a56a822.ttf") format('truetype');
+}
+@font-face {
+  font-weight: 400;
+  font-family: 'custom_159136';
+  font-style: normal;
+  src: url("/vendor/c-p.rmcdn.net/custom-fonts/font-ed80d8bc-2e82-4a75-9eb1-ddd01f1b2a5d.ttf") format('truetype');
+}
+@font-face {
+  font-weight: 300;
+  font-family: 'custom_159136';
+  font-style: normal;
+  src: url("/vendor/c-p.rmcdn.net/custom-fonts/font-d2b09d8e-46ac-4fd2-bb73-38416a1f15ca.ttf") format('truetype');
+}
+@font-face {
+  font-weight: 500;
+  font-family: 'custom_159136';
+  font-style: normal;
+  src: url("/vendor/c-p.rmcdn.net/custom-fonts/font-589fc15a-45bf-4d7a-a5c0-973f879abf49.ttf") format('truetype');
+}
+@font-face {
+  font-weight: 700;
+  font-family: 'custom_159136';
+  font-style: normal;
+  src: url("/vendor/c-p.rmcdn.net/custom-fonts/font-e750cc51-6c6a-40c8-bbee-510d8b2728cb.ttf") format('truetype');
+}
+@font-face {
+  font-weight: 200;
+  font-family: 'custom_159136';
+  font-style: normal;
+  src: url("/vendor/c-p.rmcdn.net/custom-fonts/font-2faeff6d-ebe7-42c8-93bf-1f2a81ad1f36.ttf") format('truetype');
+}

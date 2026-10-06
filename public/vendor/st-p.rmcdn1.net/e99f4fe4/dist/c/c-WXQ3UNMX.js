@@ -1,0 +1,1 @@
+import"/vendor/st-p.rmcdn1.net/e99f4fe4/dist/c/c-J44RLTAY.js";var t=({widget:e})=>{e&&e.isDragging&&(e.isDragging=!1,e.mag.isWidgetDragging=!1,document.body.style.pointerEvents==="none"&&(document.body.style.pointerEvents=""))},o=t;export{o as default};
