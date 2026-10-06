@@ -18,6 +18,13 @@ public, output = ROOT / 'public', ROOT / '_site'
 if output.exists():
     shutil.rmtree(output)
 shutil.copytree(public, output)
+# Pages needs a .css suffix to serve font stylesheets with the correct MIME type.
+renamed_styles = {}
+for style in list(output.rglob('*')):
+    if style.is_file() and style.name.startswith('css') and not style.suffix:
+        old='/' + style.relative_to(output).as_posix()
+        style.rename(style.with_name(style.name+'.css'))
+        renamed_styles[old]=old+'.css'
 paths = ['vendor', 'media', 'custom.css', 'experience.js']
 paths += [p['pagePath'] for p in json.loads((ROOT/'source/server.json').read_text())['mags']['mag']['pages']]
 # Only root-relative resource/route strings are rewritten; external links stay intact.
@@ -28,6 +35,8 @@ for file in output.rglob('*'):
     text = file.read_text()
     if base:
         text = pattern.sub(lambda m: m[1] + base + '/' + m[2], text)
+    for old,new in renamed_styles.items():
+        text=text.replace(old,new)
     if file.suffix == '.html':
         text=text.replace('<head>', '<head><base href="'+base+'/"><script src="'+base+'/pages-navigation.js" defer></script>', 1)
         match = re.search(r'(id="__RM_PROPS__" data-content=")([^"]*)(")', text)
