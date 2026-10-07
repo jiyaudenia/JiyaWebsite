@@ -1,0 +1,48 @@
+[
+  {
+    "color": "rgba(255, 0, 128, 0.8)",
+    "line": "linear-gradient(rgb(255, 0, 128), rgb(255, 0, 128))",
+    "test": "selected navigation hover"
+  },
+  {
+    "opacity": "1",
+    "test": "project card hover"
+  },
+  {
+    "opacity": "0",
+    "test": "project card leave"
+  },
+  {
+    "focused": "promotional esg campaign",
+    "opacity": "1",
+    "test": "project keyboard focus"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0.8)",
+    "shadow": "rgb(255, 0, 128) 0px 0px 0px 1px inset",
+    "test": "contact button hover"
+  },
+  {
+    "color": "rgba(255, 0, 128, 0.8)",
+    "test": "resume hover"
+  },
+  {
+    "expanded": "true",
+    "opacity": "1",
+    "test": "Experience hover"
+  },
+  {
+    "coverOpacity": "0",
+    "frameOpacity": "1",
+    "pressed": "true",
+    "test": "product keyboard reveal"
+  },
+  {
+    "expected": "TEL AVIV, ISRAEL",
+    "openLocation": [
+      "TEL AVIV, ISRAEL"
+    ],
+    "pins": 5,
+    "test": "phone map marker"
+  }
+]

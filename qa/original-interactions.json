@@ -1,0 +1,630 @@
+[
+  {
+    "animations": 6,
+    "hotspots": 0,
+    "links": [
+      {
+        "background": "linear-gradient(to right, rgba(255, 215, 235, 0) 0%, rgba(255, 215, 235, 0) 100%)",
+        "color": "rgba(255, 255, 255, 0.8)",
+        "style": "link-style-9cd0252b-41a6-477c-84e5-878a3c89a056 maglink",
+        "text": "AVAVAV"
+      },
+      {
+        "background": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+        "color": "rgb(255, 255, 255)",
+        "style": "link-style-9cd0252b-41a6-477c-84e5-878a3c89a056 maglink",
+        "text": "SabyaSachi"
+      },
+      {
+        "background": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+        "color": "rgb(255, 255, 255)",
+        "style": "link-style-9cd0252b-41a6-477c-84e5-878a3c89a056 maglink",
+        "text": "JACQUEMUS"
+      },
+      {
+        "background": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+        "color": "rgb(255, 255, 255)",
+        "style": "link-style-9cd0252b-41a6-477c-84e5-878a3c89a056 maglink",
+        "text": "LOEWE"
+      },
+      {
+        "background": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+        "color": "rgb(255, 255, 255)",
+        "style": "link-style-9cd0252b-41a6-477c-84e5-878a3c89a056 maglink",
+        "text": "scad fash"
+      },
+      {
+        "background": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+        "color": "rgb(255, 255, 255)",
+        "style": "link-style-9cd0252b-41a6-477c-84e5-878a3c89a056 maglink",
+        "text": "versace X rosenthal"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink back-to-top",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "About Me"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Projects"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink back-to-top",
+        "text": "bACK TO TOP"
+      }
+    ],
+    "path": "/",
+    "slideshows": 0
+  },
+  {
+    "animations": 4,
+    "hotspots": 0,
+    "links": [
+      {
+        "background": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+        "color": "rgb(255, 255, 255)",
+        "style": "link-style-9cd0252b-41a6-477c-84e5-878a3c89a056 maglink",
+        "text": "promotional esg campaign"
+      },
+      {
+        "background": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+        "color": "rgb(255, 255, 255)",
+        "style": "link-style-9cd0252b-41a6-477c-84e5-878a3c89a056 maglink",
+        "text": "trend forecasting"
+      },
+      {
+        "background": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+        "color": "rgb(255, 255, 255)",
+        "style": "link-style-9cd0252b-41a6-477c-84e5-878a3c89a056 maglink",
+        "text": "Distribution strategy"
+      },
+      {
+        "background": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+        "color": "rgb(255, 255, 255)",
+        "style": "link-style-9cd0252b-41a6-477c-84e5-878a3c89a056 maglink",
+        "text": "brand extention"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "About Me"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 maglink back-to-top",
+        "text": "Projects"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink back-to-top",
+        "text": "bACK TO TOP"
+      }
+    ],
+    "path": "/projects/",
+    "slideshows": 0
+  },
+  {
+    "animations": 0,
+    "hotspots": 0,
+    "links": [
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 maglink back-to-top",
+        "text": "About Me"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Projects"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      }
+    ],
+    "path": "/aboutme/",
+    "slideshows": 3
+  },
+  {
+    "animations": 4,
+    "hotspots": 4,
+    "links": [
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "About Me"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Projects"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 maglink back-to-top",
+        "text": "Experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 maglink back-to-top",
+        "text": "Work"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "volunteering"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-e31bf3db-6474-461b-830f-60b4400b2122 maglink",
+        "text": "LIVING EXPERIENCE"
+      }
+    ],
+    "path": "/work/",
+    "slideshows": 0
+  },
+  {
+    "animations": 5,
+    "hotspots": 5,
+    "links": [
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "About Me"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Projects"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 maglink",
+        "text": "Experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Work"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "volunteering"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 maglink back-to-top",
+        "text": "living experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink back-to-top",
+        "text": "bACK TO TOP"
+      }
+    ],
+    "path": "/travel/",
+    "slideshows": 0
+  },
+  {
+    "animations": 2,
+    "hotspots": 2,
+    "links": [
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 external-link close-tip-on-click",
+        "text": "The Week"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 external-link close-tip-on-click",
+        "text": "Youth Ki Awaaz"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "About Me"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Projects"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 maglink",
+        "text": "Experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Work"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "living experience"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 maglink back-to-top",
+        "text": "volunteering"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink back-to-top",
+        "text": "bACK TO TOP"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      }
+    ],
+    "path": "/volunteering/",
+    "slideshows": 0
+  },
+  {
+    "animations": 0,
+    "hotspots": 0,
+    "links": [
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "About Me"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Projects"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Experience"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 maglink back-to-top",
+        "text": "Contact"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 external-link",
+        "text": "Resume"
+      },
+      {
+        "background": "linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(255, 0, 128) 100%)",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-8e8735ce-7f81-4677-b7ac-a852c0a25219 external-link",
+        "text": "LinkedIn"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Home"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink back-to-top",
+        "text": "bACK TO TOP"
+      }
+    ],
+    "path": "/contact/",
+    "slideshows": 0
+  },
+  {
+    "animations": 6,
+    "hotspots": 0,
+    "links": [
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "About Me"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Projects"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink back-to-top",
+        "text": "bACK TO TOP"
+      }
+    ],
+    "path": "/loewe/",
+    "slideshows": 2
+  },
+  {
+    "animations": 0,
+    "hotspots": 0,
+    "links": [
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "About Me"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Projects"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      }
+    ],
+    "path": "/sabyasachi/",
+    "slideshows": 0
+  },
+  {
+    "animations": 0,
+    "hotspots": 0,
+    "links": [
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "About Me"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Projects"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      }
+    ],
+    "path": "/jacquemus/",
+    "slideshows": 0
+  },
+  {
+    "animations": 3,
+    "hotspots": 0,
+    "links": [
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-style-453d6dea-1105-4792-810f-db543d7ede6f maglink",
+        "text": "Jiya Udenia"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "About Me"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Projects"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Experience"
+      },
+      {
+        "background": "none",
+        "color": "rgb(0, 0, 0)",
+        "style": "link-1 maglink",
+        "text": "Contact"
+      }
+    ],
+    "path": "/avavav/",
+    "slideshows": 0
+  }
+]

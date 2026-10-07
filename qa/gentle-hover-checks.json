@@ -1,0 +1,307 @@
+{
+  "brand": [
+    {
+      "color": "rgb(7, 0, 3)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(7, 0, 3)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(23, 0, 11)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(48, 0, 24)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(82, 0, 41)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(121, 0, 61)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(121, 0, 61)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(162, 0, 81)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(197, 0, 99)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(226, 0, 113)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(226, 0, 113)",
+      "duration": "0.18s"
+    },
+    {
+      "color": "rgb(245, 0, 123)",
+      "duration": "0.18s"
+    }
+  ],
+  "card": [
+    {
+      "duration": "0.2s",
+      "opacity": "0.0136036"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.0136036"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.0561262"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.231756"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.231756"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.358799"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.499448"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.640645"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.76777"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.76777"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.870488"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.943416"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.986176"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.999999"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "0.999999"
+    },
+    {
+      "duration": "0.2s",
+      "opacity": "1"
+    }
+  ],
+  "cardExit": [
+    "0.986396",
+    "0.943874",
+    "0.943874",
+    "0.870849",
+    "0.76869",
+    "0.641724",
+    "0.641724",
+    "0.500862",
+    "0.35965",
+    "0.35965",
+    "0.232705",
+    "0.129873",
+    "0.0565978",
+    "0.0563617",
+    "0.0137168",
+    "4.72517e-07"
+  ],
+  "panel": [
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "titleOpacity": "1",
+      "visibility": "visible"
+    }
+  ],
+  "panelExit": [
+    {
+      "opacity": "0.891792",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0.393013",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0.0562335",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0",
+      "visibility": "hidden"
+    },
+    {
+      "opacity": "0",
+      "visibility": "hidden"
+    },
+    {
+      "opacity": "0",
+      "visibility": "hidden"
+    }
+  ],
+  "map": [
+    {
+      "opacity": "0.00331341",
+      "transition": "opacity 0.2s ease-in-out, visibility",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0.261302",
+      "transition": "opacity 0.2s ease-in-out, visibility",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0.767979",
+      "transition": "opacity 0.2s ease-in-out, visibility",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "0.992411",
+      "transition": "opacity 0.2s ease-in-out, visibility",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "1",
+      "transition": "opacity 0.2s ease-in-out, visibility",
+      "visibility": "visible"
+    },
+    {
+      "opacity": "1",
+      "transition": "opacity 0.2s ease-in-out, visibility",
+      "visibility": "visible"
+    }
+  ],
+  "button": [
+    {
+      "background": "rgba(0, 0, 0, 0.98)",
+      "shadow": "rgb(255, 0, 128) 0px 0px 0px 0.0888121px inset"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0.937)",
+      "shadow": "rgb(255, 0, 128) 0px 0px 0px 0.321291px inset"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0.85)",
+      "shadow": "rgb(255, 0, 128) 0px 0px 0px 0.741281px inset"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0.808)",
+      "shadow": "rgb(255, 0, 128) 0px 0px 0px 0.958488px inset"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0.8)",
+      "shadow": "rgb(255, 0, 128) 0px 0px 0px 1px inset"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0.8)",
+      "shadow": "rgb(255, 0, 128) 0px 0px 0px 1px inset"
+    }
+  ]
+}

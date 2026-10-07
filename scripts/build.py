@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build the captured portfolio without changing its authored layout or animations."""
-import copy, html, json, re
+import copy, hashlib, html, json, re
 from pathlib import Path
 from mirror import ROOT, PUBLIC, DIST
 from crops import exported
@@ -27,6 +27,12 @@ for page in project['pages']:
 server = localize(server)
 project = server['mags']['mag']
 project['opts']['favicon']=next(v for k,v in assets.items() if 'Favicon' in k)
+# Prevent the viewer from enlarging desktop artboards or switching to the
+# captured, clipped phone coordinates. The shared enhancement handles reflow.
+project['opts']['scalewidth'] = 1024
+for page in project['pages']:
+    page['viewport_phone_portrait'] = {'enabled': False}
+    page['viewport_tablet_portrait'] = {'enabled': False}
 server['config']['fontslist_short']=assets['https://st-p.rmcdn.net/fonts/fontslist_short.json']
 server['config']['fontslist']=assets['https://st-p.rmcdn.net/fonts/fontslist.json']
 server['config']['readymag_viewer_host']=''
@@ -56,6 +62,34 @@ if (SOURCE/'experience.js').exists():
     (PUBLIC/'experience.js').write_text(script)
     original=original.replace('</head>','<script src="/experience.js" defer></script></head>')
 original=original.replace(DIST,'/vendor/st-p.rmcdn1.net/e99f4fe4/dist')
+layouts = []
+for page in project['pages']:
+    widgets = [{'id': w['_id'], 'type': w['type'], 'x': w.get('x', 0),
+                'y': w.get('y', 0), 'w': w.get('w', 0), 'h': w.get('h', 0),
+                'hidden': w.get('hidden', False),
+                'links': [e['data'] for e in w.get('entityMap', {}).values() if e.get('type') == 'LINK'],
+                'animation': w.get('animation', []),
+                'pin': w.get('rasterUrl'),
+                'details': [{'text': b.get('text', ''),
+                             'links': [dict(r, **child.get('entityMap', {}).get(str(r['key']), {}).get('data', {}))
+                                       for r in b.get('entityRanges', [])]}
+                            for child in w.get('wids', []) for b in child.get('blocks', [])]
+                           if w['type'] == 'hotspot' else [],
+                'text': ' '.join(b.get('text', '') for b in w.get('blocks', []))}
+               for w in page['wids']]
+    footer = min(w['y'] for w in widgets if w['text'].startswith('Copyright'))
+    layouts.append({'id': page['_id'], 'route': page['pagePath'],
+                    'title': page['title'], 'footer': footer, 'widgets': widgets})
+(PUBLIC/'responsive.js').write_text((SOURCE/'responsive.js').read_text().replace(
+    '__RESPONSIVE_PAGES__', json.dumps(layouts, ensure_ascii=True)).replace(
+    '__PORTFOLIO_LINK_STYLES__', json.dumps({s['name']: s['style'] for s in project['linkStyles']['project']})))
+(PUBLIC/'responsive.css').write_text((SOURCE/'responsive.css').read_text())
+layout_version = hashlib.sha256(b''.join((PUBLIC/name).read_bytes() for name in
+    ('responsive.js', 'responsive.css', 'experience.js', 'custom.css'))).hexdigest()[:12]
+original=original.replace('href="/custom.css"', f'href="/custom.css?v={layout_version}"')
+original=original.replace('src="/experience.js"', f'src="/experience.js?v={layout_version}"')
+original=original.replace('</head>', f'<link rel="stylesheet" href="/responsive.css?v={layout_version}"/>'
+                          f'<script src="/responsive.js?v={layout_version}" defer></script></head>')
 for url,path in sorted(assets.items(),key=lambda x:len(x[0]),reverse=True):
     original=original.replace(url,path)
 original=original.replace('href="/api/fonts/webtype/css"','href="'+assets['https://jiyaudenia.com/api/fonts/webtype/css']+'"')

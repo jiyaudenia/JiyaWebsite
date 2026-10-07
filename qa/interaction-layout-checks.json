@@ -1,0 +1,178 @@
+[
+  {
+    "hoverGroups": 6,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 305,
+    "route": "home",
+    "width": 320
+  },
+  {
+    "hoverGroups": 4,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 305,
+    "route": "projects",
+    "width": 320
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 305,
+    "route": "aboutme",
+    "width": 320
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 305,
+    "route": "work",
+    "width": 320
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 305,
+    "route": "travel",
+    "width": 320
+  },
+  {
+    "hoverGroups": 2,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 320,
+    "route": "volunteering",
+    "width": 320
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 320,
+    "route": "contact",
+    "width": 320
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 305,
+    "route": "loewe",
+    "width": 320
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 305,
+    "route": "sabyasachi",
+    "width": 320
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 305,
+    "route": "jacquemus",
+    "width": 320
+  },
+  {
+    "hoverGroups": 3,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 305,
+    "route": "avavav",
+    "width": 320
+  },
+  {
+    "hoverGroups": 6,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "home",
+    "width": 1440
+  },
+  {
+    "hoverGroups": 4,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "projects",
+    "width": 1440
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "aboutme",
+    "width": 1440
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "work",
+    "width": 1440
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "travel",
+    "width": 1440
+  },
+  {
+    "hoverGroups": 2,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "volunteering",
+    "width": 1440
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "contact",
+    "width": 1440
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "loewe",
+    "width": 1440
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "sabyasachi",
+    "width": 1440
+  },
+  {
+    "hoverGroups": 0,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "jacquemus",
+    "width": 1440
+  },
+  {
+    "hoverGroups": 3,
+    "links": 5,
+    "overflow": [],
+    "pageWidth": 1024,
+    "route": "avavav",
+    "width": 1440
+  }
+]

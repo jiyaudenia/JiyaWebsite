@@ -27,8 +27,9 @@ for style in list(output.rglob('*')):
         old='/' + style.relative_to(output).as_posix()
         style.rename(style.with_name(style.name+'.css'))
         renamed_styles[old]=old+'.css'
-paths = ['vendor', 'media', 'custom.css', 'experience.js']
-paths += [p['pagePath'] for p in json.loads((ROOT/'source/server.json').read_text())['mags']['mag']['pages']]
+resources = ['vendor', 'media', 'custom.css', 'experience.js', 'responsive.css', 'responsive.js']
+routes = [p['pagePath'] for p in json.loads((ROOT/'source/server.json').read_text())['mags']['mag']['pages']]
+paths = resources + routes
 # Only root-relative resource/route strings are rewritten; external links stay intact.
 pattern = re.compile(r'(["\'(]|&quot;)/(' + '|'.join(re.escape(p) for p in paths) + r')(?=[/"\')?]|&quot;)')
 for file in output.rglob('*'):
@@ -60,7 +61,7 @@ for file in output.rglob('*'):
 # those links inside the repository path without changing the local preview.
 (output / 'pages-navigation.js').write_text('''(() => {
   const base = '''+json.dumps(base)+''';
-  const routes = new Set('''+json.dumps(paths[4:])+''');
+  const routes = new Set('''+json.dumps(routes)+''');
   function destination(link) {
     const raw=link.getAttribute('href');
     if(!raw || !raw.startsWith('/') || raw.startsWith('//')) return null;

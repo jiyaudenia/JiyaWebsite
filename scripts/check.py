@@ -11,7 +11,13 @@ class Props(HTMLParser):
         if attrs.get('id')=='__RM_PROPS__':self.value=json.loads(attrs['data-content'])
 parser=Props();parser.feed((PUBLIC/'index.html').read_text())
 project=parser.value['project'];widgets=0;animations=0
+assert project['opts']['scalewidth'] == 1024, 'All desktop pages must use the same maximum artboard width'
+assert (PUBLIC/'responsive.js').is_file() and (PUBLIC/'responsive.css').is_file()
+assert '__RESPONSIVE_PAGES__' not in (PUBLIC/'responsive.js').read_text()
+assert '__PORTFOLIO_LINK_STYLES__' not in (PUBLIC/'responsive.js').read_text()
 for page in project['pages']:
+    assert not page['viewport_phone_portrait']['enabled'], 'Use flowing phone layouts instead of clipped captured coordinates'
+    assert not page['viewport_tablet_portrait']['enabled']
     assert (PUBLIC/page['pagePath']/'index.html').exists(),page['pagePath']
     original=json.loads((SOURCE/(page['pagePath']+'.json')).read_text())
     assert len(page['wids'])==len(original)

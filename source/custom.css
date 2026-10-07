@@ -19,10 +19,10 @@
 .experience-card .experience-title { left: 50% !important; top: 50% !important; transform: translate(-50%,-50%); width: 241.15px !important; height: auto !important; z-index: 2 !important; pointer-events: none; }
 .experience-toggle { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; padding: 0; background: transparent; cursor: pointer; z-index: 4; }
 .experience-toggle:focus-visible { outline: 2px solid #fff; outline-offset: -6px; }
-.experience-panel { position: absolute; z-index: 3; left: 50%; top: 50%; transform: translate(-50%,-50%); width: calc(100% - 80px); box-sizing: border-box; background: #fff; color: #2c1a00; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,.2); padding: 16px; text-align: center; opacity: 0; visibility: hidden; transition: opacity .6s ease-out, visibility .6s; pointer-events: none; }
+.experience-panel { position: absolute; z-index: 3; left: 50%; top: 50%; transform: translate(-50%,-50%); width: calc(100% - 80px); box-sizing: border-box; background: #fff; color: #2c1a00; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,.2); padding: 16px; text-align: center; opacity: 0; visibility: hidden; transition: opacity .5s ease-in-out, visibility 0s linear .5s; pointer-events: none; }
 .experience-panel h2 { font-family: 'Bodoni Moda',serif; font-size: 15px; font-weight: 400; letter-spacing: 1.1px; line-height: 22px; margin: 0 0 16px; }
 .experience-panel p { font-family: custom_159136, sans-serif; font-size: 13px; font-weight: 400; letter-spacing: .5px; line-height: 22px; margin: 0; }
-.experience-card.is-open .experience-panel { opacity: 1; visibility: visible; }
+.experience-card.is-open .experience-panel { opacity: 1; visibility: visible; transition-delay: 0s; }
 .experience-footer { position: relative; height: 136px; margin-top: 68px; }
 @media (max-width: 900px) {
   .experience-section { margin: 0 32px; grid-template-columns: 112px minmax(0,1fr); }
@@ -41,7 +41,7 @@
   .experience-footer { margin: 40px 20px 0; display: flex; flex-wrap: wrap; align-items: start; gap: 14px; height: auto; padding-bottom: 40px; }
   .experience-footer .rmwidget { position: relative !important; left: auto !important; top: auto !important; max-width: 100%; }
 }
-@media (prefers-reduced-motion: reduce) { .experience-panel { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .experience-panel { transition-duration: .2s, 0s; transition-delay: 0s, .2s; } .experience-card.is-open .experience-panel { transition-delay: 0s; } }
 .experience-header-canvas { position: relative; }
 .experience-page > .animation-container, .experience-page > .rmwidget { display: none !important; }
 html:has(.center-page .experience-page), body:has(.center-page .experience-page), .mag:has(.center-page .experience-page) { min-width: 0 !important; }

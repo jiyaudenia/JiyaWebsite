@@ -57,7 +57,7 @@ The two AVAVAV Vimeo embeds remain hosted by Vimeo and require internet access. 
 
 ## Verification
 
-Browser checks covered all 11 routes, long-page scrolling and footers, image loading, homepage video playback, slideshow changes, contact validation and successful local storage, and comparison with the original desktop and mobile layouts. The original narrow-screen behavior is preserved, including its clipped desktop canvas; the replica intentionally does not redesign it.
+Browser checks cover all 11 routes, long-page scrolling and footers, image loading, homepage video playback, slideshow changes, and contact validation. Shared responsive layouts replace the original clipped phone canvas. Desktop artboards are capped at 1024px to keep the scale consistent between pages; screens up to 800px use flowing paragraphs and stacked media sections.
 
 A desktop preview is saved in `qa/home-desktop.jpg`.
 
@@ -66,3 +66,7 @@ A desktop preview is saved in `qa/home-desktop.jpg`.
 About Me uses three fixed professional photos and the updated graduate/strategist biography. Experience uses a shared responsive collage card layout, with Dimohe’s E-commerce & Branding Intern details in the matching white panel.
 
 The Experience enhancement in `source/experience.js` reuses the authored image and title widgets. `source/experience.json` defines their card grouping; panel copy is taken from the existing hotspot content at build time. The left word is centered within the full parent section; mobile uses a horizontal heading. ResizeObserver keeps every card tall enough for the longest panel. Official Dimohe image URLs are recorded in `source/dimohe-assets.json`.
+
+`source/responsive.js` and `source/responsive.css` supply the shared navigation, footer, and responsive widget grouping for every page. The build embeds widget geometry from the page definitions and versions these assets so layout updates are not held in the browser cache. Media compositions retain their proportions while phone paragraphs reflow at 16px. Navigation resolves from the script URL, including GitHub Pages repository subpaths.
+
+The shared navigation and footer use the original link-style definitions, including the bright pink title hover, black hover underlines, and pink selected-page underlines. Link colors, hover underlines, and form buttons ease over 0.3 seconds; map popups fade over 0.35 seconds. Card overlays retain their authored opacity targets and timing, and Experience panels use a 0.5-second fade. Closing fades finish before panels become hidden. Cards also reveal on keyboard focus; product covers can be toggled with touch or a keyboard. Phone travel markers reuse the original pin artwork and open the matching location details. Narrow-screen scroll fades use the reflowed positions. Reduced-motion preferences shorten non-spatial hover fades to 0.18–0.2 seconds and disable spatial animation. All custom styles and interaction scripts are versioned to deliver updates immediately.
